@@ -2,7 +2,7 @@ name: Greetings on main
 
 on:
   push:
-    branches: [develop]
+    branches: [develop, main]
 
 jobs:
   greeting:
